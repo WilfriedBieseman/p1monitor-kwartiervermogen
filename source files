@@ -14,4 +14,5 @@
   De tweede regel zorgt ervoor dat een back-up van de in ramgeheugen opgeslagen databank elke twee uur op het SD -kaartje wordt bewaard. Dit is nodig om te vermijden dat de gegevens verloren zouden gaan bij een eventuele uitval of stopzetting van de P1monitor.
   Om plaats te besparen op het SD-kaartje - of slijtage van het SD-kaartje te verminderen - kan */2 worden vervangen door */4, */6 of */12
 
-De betreffende bestanden vind je - gecompresseerd met zip en gz - onder "realeases" in de rechter kolom van deze pagina
+De betreffende bestanden vind je - gecompresseerd met zip en gz - onder "realeases" in de rechter kolom van de hoofdpagina.
+
