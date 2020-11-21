@@ -1,1 +1,16 @@
+## Installatie How-to
+
+->login bij de p1monitor als user p1mon
+->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db.php en readme.txt naar de directory /p1mon/www/custom/
+->maak een cron aan (d.w.z. programmeer een regelmatig terugkomende opdracht)
+	dat doe je als volgt:
+	- vanuit de opdrachtprompt (om het even in welke directory): typ het comando crontab -e
+	- verplaats de curser voorbij de laatste regel en typ vervolgens de twee volgende regels:
+		* * * * * php /p1mon/www/custom/kwartiervermogen.php
+		2 */2 * * * php /p1mon/www/custom/copy_db.php
+	- sla op met ^O (Write out) en Retun (om te bevestigen)
+	- sluit af met ^X (Exit)
+  De eerste regel zorgt ervoor dat elke minuut het geleverde vermogen wordt gelezen, de kwartierwaarde voor het lopende kwartier wordt berekend en op het einde van elk kwartier wordt opgeslagen in de databank 'kwartiervermogen.db', die zich in ram-geheugen (ramdisk) bevindt.
+  De tweede regel zorgt ervoor dat een back-up van de in ramgeheugen opgeslagen databank elke twee uur op het SD -kaartje wordt bewaard. Dit is nodig om te vermijden dat de gegevens verloren zouden gaan bij een eventuele uitval of stopzetting van de P1monitor.
+  Om plaats te besparen op het SD-kaartje - of slijtage van het SD-kaartje te verminderen - kan */2 worden vervangen door */4, */6 of */12
 
