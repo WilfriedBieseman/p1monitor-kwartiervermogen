@@ -17,3 +17,5 @@ Elke maand wordt een 'hoogste' kwartiervermogen vastgesteld. Van deze maandpieke
 Meer informatie is te vinden op de website van de Vlaamse Energieregulator VREG (https://www.vreg.be/nl/faq --> 'nettarieven').
 
 De hier vermelde toepassing zorgt ervoor dat kwartiervermogens worden opgeslagen en kunnen worden uitgelezen.
+
+Deze toepassing is dus een add-on bij de P1monitor van ZTATZ die je daarom eerst moet downloaden en installeren (zie https://www.ztatz.nl/ )
