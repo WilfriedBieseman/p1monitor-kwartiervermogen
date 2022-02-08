@@ -1,0 +1,18 @@
+## Installatie How-to
+
+->installeer de p1monitor-sofware van ZTATZ op een Raspberry Pi minicomputer (zie https://www.ztatz.nl/p1-monitor/)
+->sluit de speciale RJ11 naar USB kabel aan tussen de slimme meter en de Raspberry Pi
+->login bij de p1monitor als user p1mon
+->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db.php en eventueel ook readme.txt naar de directory /p1mon/www/custom/
+->kopieer het bestand kwartiervermogen.db naar directory /p1mon/mnt/ramdisk en ook naar de directory /p1mon/data/
+->maak een cron aan (d.w.z. programmeer een regelmatig terugkomende opdracht)
+
+dat doe je als volgt:
+	- vanuit de opdrachtprompt (om het even in welke directory): typ het commando crontab -e
+	- verplaats de curser voorbij de laatste regel en typ vervolgens de twee volgende regels:
+		* * * * * php /p1mon/www/custom/kwartiervermogen.php
+		2 * * * * php /p1mon/www/custom/copy_db.php
+	- sla op met ^O (Write out) en Retun (om te bevestigen)
+	- sluit af met ^X (Exit)
+  De eerste regel zorgt ervoor dat elke minuut het actueel geleverde vermogen wordt gelezen, de kwartierwaarde voor het lopende kwartier wordt berekend en op het einde van elk kwartier wordt opgeslagen in de databank 'kwartiervermogen.db', die zich in ram-geheugen (ramdisk) bevindt.
+  De tweede regel zorgt ervoor dat er op elk uur (+2 minuten) een back-up van de in ramgeheugen opgeslagen databank op het SD -kaartje wordt bewaard. Dat is nodig om te vermijden dat de gegevens verloren gaan bij een eventuele uitval of stopzetting van de P1monitor. Omgekeerd zal na een uitval maximaal na een uur het back-up bestand worden teruggezet naar ram-geheugen.
