@@ -5,8 +5,9 @@
 ->login bij de p1monitor als user p1mon
 ->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db.php en eventueel ook readme.txt naar de directory /p1mon/www/custom/
 ->kopieer het bestand kwartiervermogen.db naar directory /p1mon/mnt/ramdisk en ook naar de directory /p1mon/data/
-->maak een cron aan (d.w.z. programmeer een regelmatig terugkomende opdracht)
+     De betreffende bestanden vind je - gecomprimeerd met zip en gz - onder "releases" in de rechter kolom van de hoofdpagina.
 
+->maak een cron aan (d.w.z. programmeer een regelmatig terugkomende opdracht)
 dat doe je als volgt:
 	- vanuit de opdrachtprompt (om het even in welke directory): typ het commando crontab -e
 	- verplaats de curser voorbij de laatste regel en typ vervolgens de twee volgende regels:
