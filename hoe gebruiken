@@ -1,5 +1,15 @@
-Het actuele, ogenblikkelijke verbruiksvermogen, een schatting van het kwartiervermogen dat op het einde van het lopende kwartier zal worden geregistreerd, de geregistreerde kwartiervermogens van de laatste uren en dagen en de maximale kwartiervermogenswaarden van de laatste 12 maanden worden weergegeven met het php-script 'custom/toon_kwartiervermogen.php'
+Met deze toepassing wordt het volgende gemeten en weergegen:
+	- het actuele, ogenblikkelijke verbruiksvermogen;
+	- een schatting van het kwartiervermogen dat aan het einde van het lopende kwartier zal worden geregistreerd als het huidige vermogen wordt aangehouden;
+	- het "lopende" kwartiervermmogen, d.w.z. het kwartiervermogen dat aan het einde van het lopende kwartier zal worden geregisteerd als er geen verder verbruik meer plaats vindt (gegevens uit de meter);
+	- de vermogenspiek van de vorige maand, zoals geregistreerd in de meter;
+	- de geregistreerde kwartiervermogens van de laatste uren en dagen;
+	- de maximale kwartiervermogenswaarden van de laatste 12 maanden;
+	- de maximale kwartiervermogenswaarden zoals aangerekend in de nettarieven (dus rekening houdend met het een minimum van 2,5 kW)
+	
+Voor deze toepassing moet eerst de P1monitor van ZTAZ worden geïnstalleerd (zie https://www.ztatz.nl/p1-monitor/). Alle bovenstaande gegevens worden weergegeven met het php-script 'custom/toon_kwartiervermogen.php' dat hier wordt voorgesteld.
 
-Bij voorbeeld: indien je de P1monitor normaal afleest op http://192.168.1.20/main-1.php of main-2.php , dan vind je de informatie over het kwartiervermogen op http://192.168.20/custom/toon_kwartiervermogen.php
-Er is nog geen menu-link of pictogram beschikbaar op de andere pagina's van de P1monitor. Bovenvermelde url moet dus manueel worden ingegeven.
+Voorbeeld: indien je de P1monitor normaal afleest op http://192.168.1.20/main-1.php of main-2.php , dan vind je de informatie over de kwartiervermogens op http://192.168.20/custom/toon_kwartiervermogen.php
+
+Er is GEEN menu-link of pictogram beschikbaar op de home-pages of andere pagina's van de P1-monitor. Bovenvermelde url moet dus manueel worden ingegeven.
 
