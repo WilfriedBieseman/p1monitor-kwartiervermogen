@@ -1,5 +1,5 @@
 # p1monitor-kwartiervermogen
-Toepassing voor het berekenen en weergeven van de kwartiervermogens in het elektriciteitsverbruik, gebruik makend van de P1monitor van ZTATZ
+Toepassing voor het real-time berekenen en weergeven van de kwartiervermogens in het elektriciteitsverbruik, gebruik makend van de P1monitor van ZTATZ
 
 ## Waarom deze toepassing?
 
