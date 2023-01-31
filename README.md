@@ -1,5 +1,5 @@
 # p1monitor-kwartiervermogen
-Toepassing voor het berekenen en weergeven van de kwartiervermogens in het elektriciteitsverbruik bij gebruik van de P1monitor van ZTATZ
+Toepassing voor het berekenen en weergeven van de kwartiervermogens in het elektriciteitsverbruik, gebruik makend van de P1monitor van ZTATZ
 
 ## Waarom deze toepassing?
 
@@ -10,9 +10,9 @@ Wat voor Vlaanderen (België) ontbreekt, is een overzicht van de kwartiervermoge
 
 Een woordje uitleg:
 
-Sinds 1 januari 2023 geldt in Vlaanderen een nieuw distributienettarief, dat grotendeels is gebaseerd op het vermogen dat aan de meter werd geleverd, verder 'capaciteitstarief' genoemd. Het capaciteitstarief wordt aangerekend op basis van een ‘gemiddelde maandpiek’ (kW). Deze maandpiek is wel niet de piek zoals nu dagelijks aangegeven door de P1monitor, maar een zogenaamde kwartiervermogenspiek. Voor de aanrekening van het capaciteitstarief wordt immers gekeken naar het GEMIDDELDE vermogen op kwartierbasis (ofwel ‘kwartiervermogen’). De absolute piek is dus niet van belang. Het aansluitingsvermogen en het type aansluiting (een- of driefasig) zal in Vlaanderen ook geen enkele impact hebben op het te betalen capaciteitstarief.
+Sinds 1 januari 2023 geldt in Vlaanderen een nieuw distributienettarief, dat grotendeels is gebaseerd op het vermogen dat aan de meter werd geleverd, verder 'capaciteitstarief' genoemd. Het capaciteitstarief wordt aangerekend op basis van een ‘gemiddelde maandpiek’ (kW). Deze maandpiek is wel niet de piek zoals nu dagelijks aangegeven door de P1monitor, maar een zogenaamde kwartiervermogenspiek. Voor de aanrekening van het capaciteitstarief wordt immers gekeken naar het GEMIDDELDE vermogen op kwartierbasis (ofwel ‘kwartiervermogen’). De absolute piek is dus niet van belang. Het aansluitingsvermogen en het type aansluiting (een- of driefasig) heeft in Vlaanderen ook geen enkele impact op het te betalen capaciteitstarief. Het verbruik (in kWh) wordt natuurlijk ook nog aangerekend, maar werd op 1 januari 2023 drastisch verlaagd.
 
-Elke maand wordt een 'hoogste' kwartiervermogen vastgesteld. Van deze maandpieken wordt opnieuw een gemiddelde genomen over de laatste 12 maanden om het (jaarlijkse) capaciteitstarief van de netbeheerder vast te stellen. Op deze manier hebben toevallige vermogenspieken of toevallig hoge kwartierpieken slechts weinig invloed op de te betalen vergoeding voor het netgebruik. Wie in een bepaald jaar sytematisch hoge pieken vraagt over verschillende tijdsperioden van een kwartier, betaalt daarentegen wel een hoog nettarief.
+Elke maand wordt een 'hoogste' kwartiervermogen vastgesteld. Van deze maandpieken wordt dan het gemiddelde genomen over de laatste 12 maanden om het (jaarlijkse) capaciteitstarief van de netbeheerder vast te stellen. Er wordt voor elke maand wel een minimum van 2,5 kW aangerekend. De kostprijs per kW is geoon lineair. Er is dus een maandelijkse minimale kost overeenkomend met een vermogenpiek van 2,5 kW verschuldigd.
 
 Meer informatie is te vinden op de website van de Vlaamse Energieregulator VREG (https://www.vreg.be/nl/faq --> 'nettarieven').
 
