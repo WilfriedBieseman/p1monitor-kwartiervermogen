@@ -14,7 +14,7 @@ Sinds 1 januari 2023 geldt in Vlaanderen een nieuw distributienettarief, dat gro
 
 Elke maand wordt een 'hoogste' kwartiervermogen vastgesteld. Van deze maandpieken wordt dan het gemiddelde genomen over de laatste 12 maanden om het (jaarlijkse) capaciteitstarief van de netbeheerder vast te stellen. Er wordt voor elke maand wel een minimum van 2,5 kW aangerekend. De kostprijs per kW is geoon lineair. Er is dus een maandelijkse minimale kost overeenkomend met een vermogenpiek van 2,5 kW verschuldigd.
 
-Meer informatie is te vinden op de website van de Vlaamse Energieregulator VREG (https://www.vreg.be/nl/faq --> 'nettarieven').
+Meer informatie is te vinden op de website van de Vlaamse Energieregulator VREG (zie https://www.vreg.be/nl/nieuwe-nettarieven).
 
 De hier vermelde toepassing zorgt ervoor dat kwartiervermogens worden opgeslagen en kunnen worden uitgelezen.
 
