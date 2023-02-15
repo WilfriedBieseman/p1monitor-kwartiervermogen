@@ -1,5 +1,7 @@
 
 ->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db.php en eventueel ook readme.txt naar de directory /p1mon/www/custom/
 ->kopieer het bestand kwartiervermogen.db naar de directory /p1mon/data/
+->kopieer de bestanden kwartiervermogen.db en voorbeeld;db naar de directory /p1mon/mnt/ramdisk/
 -
-De betreffende bestanden vind je - gecomprimeerd met zip en gz - onder "releases" in de rechter kolom van de hoofdpagina.
+De betreffende bestanden vind je - gecomprimeerd met zip, tar en tar.gz - onder "releases" in de rechter kolom van de hoofdpagina.
+Downoad indien gewenst ook de Android app op je smartphone of tablet en installeer de toepassinge
