@@ -13,3 +13,7 @@ Voorbeeld: indien je de P1monitor normaal afleest op http://192.168.1.20/main-1.
 
 Er is GEEN menu-link of pictogram beschikbaar op de home-pages of andere pagina's van de P1-monitor. Bovenvermelde url moet dus manueel worden ingegeven.
 
+Tip: bij het eerste gebruik van de toepassing zijn er natuurlijk nog geen dagelijkse en maandelijkse cijfers beschikbaar. Wees dus geduldig en wacht enkele uren/dagen/maanden.
+Wil je te weten komen hoe de toepassing er na 12 maanden ongeveer uit zal zien, gebruik dan de url http://192.168.1.20/custom/toon_kwartiervermogen.php?voorbeeld=ja
+Let daarbij niet op de weergegeven resultaten; ze zijn volledig fictief.
+
