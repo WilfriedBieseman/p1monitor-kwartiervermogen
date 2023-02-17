@@ -3,7 +3,7 @@
 ->installeer de p1monitor-sofware van ZTATZ op een Raspberry Pi minicomputer (zie https://www.ztatz.nl/p1-monitor/)
 ->sluit de speciale RJ11 naar USB kabel aan tussen de slimme meter en de Raspberry Pi
 ->login bij de p1monitor als user p1mon
-->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db en eventueel ook readme.txt naar de directory /p1mon/www/custom/
+->kopieer de bestanden kwartiervermogen.php , toon_kwartiervermogen.php, copy_db, wb_app_respons.php en eventueel ook readme.txt naar de directory /p1mon/www/custom/
 ->kopieer het bestand kwartiervermogen.db naar de directory /p1mon/data/
 ->kopieer de bestanden kwartiervermogen.db en voorbeeld.db ook naar directory /p1mon/mnt/ramdisk/
      De betreffende bestanden vind je - gecomprimeerd met zip, tar en tar.gz onder "releases" in de rechter kolom van de hoofdpagina.
