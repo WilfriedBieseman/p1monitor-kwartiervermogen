@@ -3,7 +3,7 @@ Toepassing voor het real-time berekenen en weergeven van de kwartiervermogens in
 
 ## Waarom deze toepassing?
 
-De huidige versie van de P1monitor (20221105) van ZTATZ geeft al bepaalde vermogensinformatie weer uit de digitale/slimme meter.
+De P1monitor van ZTATZ geeft al bepaalde vermogensinformatie weer uit de digitale/slimme meter.
 Het ogenblikkelijk of 'actuele' vermogen vind je op 'main-2.php', linkse kolom en op 'e-verbuik.php', linkse kolom.
 Daarnaast vind je ook het maximaal vermogen (vermogenespiek) dat vandaag werd genoteerd en ook het tijdstip waarop dit voorkwam (zie onder 'vandaag' op 'main-2.php', laatste twee vermeldingen).
 Wat voor Vlaanderen (België) ontbreekt, is een overzicht van de kwartiervermogens.
